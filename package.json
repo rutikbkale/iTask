@@ -1,9 +1,9 @@
 {
+  "homepage": "https://rutikbkale.github.io/iTask",
   "name": "itask",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/rutikbkale/iTask",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
