@@ -28,7 +28,7 @@ function App() {
     <>
       <Navbar />
       <main className="container flex items-center justify-center">
-        <div className="bg-violet-400 text-white min-h-[80vh] w-1/2 mt-8 rounded-md mb-2">
+        <div className="bg-violet-400 text-white min-h-[80vh]  w-full md:w-1/2 mx-2 mt-8 rounded-md mb-2">
           <div className="title text-2xl font-bold flex justify-center my-4">
             <SiGoogletasks className="text-4xl" />
             &nbsp; iTask
@@ -41,17 +41,17 @@ function App() {
               onChange={(e) => {
                 setTask(e.target.value);
               }}
-              className="text-black py-1 px-3 rounded-md w-2/3 mx-2"
+              className="text-black py-1 px-2  rounded-full w-full md:rounded-md  md:w-2/3 md:mx-2"
             />
             <button
               onClick={handleSave}
-              className="bg-violet-800 text-xl font-bold py-1 px-3 rounded-md w-1/4 mx-2"
+              className="bg-violet-800 text-xl font-bold py-1 px-3 rounded-md w-1/2 mt-4 md:mt-0 md:w-1/4 mx-2"
             >
               save
             </button>
           </div>
           <div className="tasks container">
-            <div className="title text-xl font-bold text-center mt-8">
+            <div className="title text-xl font-bold text-center mt-4 md:mt-8">
               All Tasks
             </div>
             <div className="lists mt-4 flex flex-col items-center">
